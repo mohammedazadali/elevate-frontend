@@ -1,0 +1,24 @@
+{
+    "faq-data": [
+        {
+            "question":"What do I need to apply for ElevateCard?",
+            "answer":" You need to be at least 18 years old, have a valid ID, and a stable income source. The application process is simple and can be completed online in just a few minutes."
+        },
+        {
+            "question":"How do the rewards work?",
+            "answer":"Earn points for every dollar spent with your ElevateCard. Points can be redeemed for travel, gift cards, cashback, and exclusive discounts. The more you spend, the more you earn!"
+        },
+        {
+            "question":"Are there any annual fees?",
+            "answer":"No, ElevateCard has zero annual fees, allowing you to enjoy all the premium features without any additional costs."
+        },
+        {
+            "question":"Is my ElevateCard secure?",
+            "answer":"Absolutely. We use state-of-the-art security measures, including advanced encryption, fraud detection, and biometric authentication, to ensure your information is always safe."
+        },
+        {
+            "question":"How can I manage my ElevateCard account?",
+            "answer":"You can manage your account easily through our intuitive mobile app and online portal. Check your balance, make payments, track rewards, and more, anytime, anywhere."
+        }
+    ]
+}

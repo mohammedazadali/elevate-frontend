@@ -1,0 +1,142 @@
+.hero-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 50px;
+}
+.heroimg{
+    width: 100%;
+}
+.right-hero{
+    flex-basis: 10%;
+}
+.mid-hero{
+    flex-basis: 40%;   
+}
+.left-hero{
+    flex-basis:35%;
+}
+.bgimg{
+    width: 60%;
+    opacity: 0.7;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+.right-hero{
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+}
+.card{
+    width:320px;
+}
+.clientcard{
+    width: 100px;
+    position: absolute;
+    right: 40px;
+}
+.mid-hero{
+    margin: auto;
+}
+.mid-hero h1{
+    font-size: 3rem;
+}
+.mid-hero p{
+    font-size: 1rem;
+    line-height: 1.5;
+}
+.input{
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border-radius: 50px;
+    margin-top: 80px;
+    width: 80%;
+    padding: 10px;
+    border: 1px solid rgba(212, 212, 212, 0.2);
+    height: 70px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.input input{
+    flex-basis: 90%;
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    font-size: 1rem;
+    border-radius: 50px;
+}
+.input img{
+    flex-basis: 10%;
+    width: 50px;
+}
+
+
+
+@media screen and (max-width:900px) {
+    .bgimg{
+        width: 100%;
+        left: 0;
+        top: 50%;
+        opacity: 1;
+    }
+    .hero-section{
+        flex-direction: column;
+        padding: 50px 30px;
+    }
+    .left-hero{
+        flex-basis: 90%;
+    }
+    .mid-hero{
+        align-items: center;
+        text-align: center;
+        flex-basis: 90%;
+    }
+    .mid-hero p{
+        margin-top: 12px;
+        font-size: 1rem;
+    }
+    .input{
+        margin: 20px auto;
+        width: 60%;
+        padding: 10px;
+    }
+    .right-hero{
+        display: none;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .bgimg{
+        width: 100%;
+        left: 0;
+        top: 50%;
+        opacity: 1;
+    }
+    .hero-section{
+        flex-direction: column;
+        padding: 50px 10px;
+    }
+    .left-hero{
+        flex-basis: 100%;
+    }
+    .mid-hero{
+        flex-basis: 100%;
+    }
+    .mid-hero h1{
+        font-size: 2rem;
+        text-align: center;
+    }
+    .mid-hero p{
+        margin-top: 12px;
+        font-size: 0.8rem;
+        text-align: center;
+    }
+    .input{
+        margin-top: 20px;
+        width: 100%;
+        padding: 10px;
+    }
+    .right-hero{
+        display: none;
+    }
+}

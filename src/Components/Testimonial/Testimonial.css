@@ -1,0 +1,75 @@
+.testimonials{
+    background: #DBE5E4;
+    padding: 40px 50px ;
+}
+.heading-test{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading-test h1{
+    width: 400px;
+    font-size: 2rem;
+}
+.test-navbtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.heading-test button{
+    background: transparent;
+    cursor: pointer;
+}
+.test-container{
+    width: 100%;
+    margin: 40px auto;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.test-items{
+    display: inline-flex;
+    align-items: center;
+    gap: 20px;
+}
+.testimonial-box{
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px;
+    width: 350px;
+    height: 400px;
+}
+.test-container::-webkit-scrollbar{
+    display: none;
+}
+.top-test{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 40px;
+}
+.top-test img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.testimonial-box h1{
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+.testimonial-box p{
+    font-size: 1rem;
+    color: #3b3b3b;
+    line-height: 1.5;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .testimonials{
+        padding: 40px 10px;
+    }
+    .heading-test h1{
+        font-size:1.5rem;
+    }
+}
+
