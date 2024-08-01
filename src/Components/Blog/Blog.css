@@ -1,5 +1,5 @@
 .blog-section{
-    padding: 30px 40px;
+    padding: 50px 6%;
 }
 .blogsec-title{
     text-align: center;
@@ -9,7 +9,8 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    width: 80%;
+    width: 100%;
+    justify-content: space-between;
     gap: 40px;
     margin: 30px auto;
 }
